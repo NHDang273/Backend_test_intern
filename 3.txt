@@ -1,0 +1,6 @@
+Lỗi: SELECT * FROM products WHERE price > 'abc'; 
+Sửa lỗi : SELECT * FROM products WHERE price > 0;
+
+- Giải thích: price có thể là trường 'integer' hoặc 'float'. Tuy nhiên trong câu lệnh ban đầu nó lại so sánh với 'abc' là string,
+                nên gây lỗi không so sánh giá trị số với chuỗi. Chỉ cần thay 'abc' bằng giá trị số phù hợp.
+                VD: trong trường hợp trên thay 'abc' bằng 0

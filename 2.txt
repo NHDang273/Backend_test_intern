@@ -1,0 +1,11 @@
+- ORM là gì:
+        Là một kỹ thuật lập trình cho phép lập trình viên thao tác với cơ sở dữ liệu thông qua các đối tượng trong mã nguồn 
+        thay vì viết trực tiếp các câu lệnh SQL. 
+
+        ORM đóng vai trò trung gian, ánh xạ các bảng và cột trong database với các lớp, thuộc tính trong source code 
+
+- Ưu điểm:
+        Dễ sử dụng và tăng hiệu suất: làm việc với database mà không cần viết nhiều lệnh sql phức tạp
+- Nhược điểm:
+        Hiệu năng có thể thấp: ORM tự động tạo và quản lý lệnh SQL nên có thể không tối ưu trong trường
+        hợp truy vấn phức tạp
